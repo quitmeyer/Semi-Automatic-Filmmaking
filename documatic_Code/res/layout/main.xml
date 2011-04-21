@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/MainBackground">
+
+
+	<TextView style="@android:style/TextAppearance.Medium"
+		android:text="@string/mSelect" android:id="@+id/selectproj"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textSize="12dip" android:layout_gravity="center_horizontal"></TextView>
+	<Spinner android:id="@+id/mProjSpinner" android:layout_height="wrap_content"
+		android:prompt="@string/mSelect" android:layout_width="match_parent"></Spinner>
+
+
+
+	<!-- Dragon -->
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="0px" android:layout_weight="4">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="0px"
+			android:layout_weight="1" android:background="@color/ListBackground"
+			android:orientation="vertical">
+			<TextView android:text="Arrange/Edit Project Sections"
+				android:id="@+id/selectproj" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="10dip"
+				android:layout_gravity="center_horizontal"></TextView>
+				<View android:id="@+id/divider"
+    android:background="@drawable/mainlistgradient"
+    android:layout_width="fill_parent" android:layout_height="2dp"/>
+			<com.ericharlow.DragNDrop.DragNDropListView android:fadingEdgeLength="100dip"
+				android:id="@+id/DragonList" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:background="#00000000"
+				android:cacheColorHint="#00000000" android:layout_gravity="center_vertical">
+
+			</com.ericharlow.DragNDrop.DragNDropListView>
+
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<!--BottomMenu -->
+	<View android:id="@+id/divider" android:background="@drawable/black_white_gradient"
+		android:layout_width="fill_parent" android:layout_height="1dp"
+		android:layout_marginBottom="2dip" />
+	<LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout01"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:layout_height="wrap_content" android:layout_width="0dp"
+			android:layout_weight="1">
+
+			<ImageButton android:id="@+id/mAddSection"
+				android:scaleType="centerCrop" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:src="@drawable/plusbutton"
+				android:layout_gravity="center|center_vertical"></ImageButton>
+
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/textView1"
+				android:gravity="left" android:text="New\nSection"
+				android:layout_gravity="center_vertical" style="@android:style/TextAppearance.Theme"
+				android:textSize="14dip"></TextView>
+		</LinearLayout>
+		<Button android:text="@string/mAddF" android:id="@+id/mBadd"
+			android:layout_height="fill_parent" android:layout_width="0dp"
+			android:layout_alignParentRight="true" android:layout_weight="2"></Button>
+
+	</LinearLayout>
+
+
+</LinearLayout>

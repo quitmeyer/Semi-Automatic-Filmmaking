@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal" >
+
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:orientation="horizontal" android:paddingBottom="5dip" android:paddingTop="5dip">
+
+			<LinearLayout android:layout_height="wrap_content" android:id="@+id/noBox" 
+				android:layout_width="0dip" android:orientation="vertical" android:layout_weight="1" android:padding="5dip" android:gravity="center">
+				<TextView android:id="@+id/narrQTextView02" style="@android:style/TextAppearance.Medium" 
+					android:textSize="12dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No\nLink" android:gravity="center"/>
+
+						<RadioButton android:id="@+id/noLink" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+
+			</LinearLayout>
+				
+			<View android:id="@+id/divider"
+    android:background="@drawable/listgradient"
+    android:layout_width="2dp" android:padding="2dip" android:layout_height="fill_parent"/>
+    
+						<LinearLayout android:id="@+id/personBox" android:layout_height="wrap_content" android:background="@color/darkhighlight"
+				android:layout_width="0dip" android:layout_weight="2" android:padding="5dip" android:orientation="vertical" >
+				<TextView android:text="Link\nPerson" android:id="@+id/narrQTextView01" style="@android:style/TextAppearance.Medium"
+					android:textSize="12dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal" android:gravity="center"/>
+			
+			
+		<Spinner android:id="@+id/exhPeopleSpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/peopleNames" android:layout_gravity="center_horizontal"/>
+			</LinearLayout>
+		
+				<View android:id="@+id/divider"
+    android:background="@drawable/listgradient"
+    android:layout_width="2dp" android:layout_height="fill_parent" android:padding="2dip" />
+    
+			<LinearLayout android:layout_height="wrap_content" android:id="@+id/narrBox" 
+				android:layout_width="0dip" android:orientation="vertical" android:layout_weight="1" android:padding="5dip" android:gravity="center">
+				<TextView android:id="@+id/narrQTextView01" style="@android:style/TextAppearance.Medium"
+					android:textSize="12dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Link\nNarration" android:gravity="center"/>
+
+										<RadioButton android:id="@+id/narLink" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+
+			</LinearLayout>
+		
+</LinearLayout>
+</LinearLayout>

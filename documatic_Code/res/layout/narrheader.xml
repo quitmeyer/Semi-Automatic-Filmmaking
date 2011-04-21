@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal" android:paddingBottom="5dip" android:paddingTop="5dip" >
+
+<Button android:layout_alignParentTop="true"
+				android:layout_height="wrap_content" android:layout_width="200dip"
+				android:text="@string/narrBadTake" android:id="@+id/Button01" android:layout_gravity="center" android:layout_marginTop="5dip"></Button>
+
+
+</LinearLayout>

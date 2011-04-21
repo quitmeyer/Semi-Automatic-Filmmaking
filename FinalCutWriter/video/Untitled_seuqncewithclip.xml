@@ -1,0 +1,364 @@
+  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <!DOCTYPE xmeml>
+   <xmeml version="4">
+  <project>
+	  <name>Dogtown</name>
+	  <children>
+  <sequence id="sequence-3">
+	  <uuid>313d5b6d-117d-4662-8b3c-e25ef286667e</uuid>
+  <duration>150</duration>
+  <rate>
+	  <timebase>30</timebase>
+  </rate>
+	  <name>projsequence</name>
+  <media>
+  <video>
+  <format>
+  <samplecharacteristics>
+  <rate>
+	  <timebase>30</timebase>
+  </rate>
+	  <width>1920</width>
+	  <height>1080</height>
+	  <anamorphic>FALSE</anamorphic>
+	  <pixelaspectratio>square</pixelaspectratio>
+	  <fielddominance>none</fielddominance>
+	  <colordepth>24</colordepth>
+  </samplecharacteristics>
+  </format>
+  <track ID="main_video_track" >
+	  
+  <clipitem id="clipitem-4">
+	  <name>MVI_4425.MOV</name>
+	  <enabled>TRUE</enabled>
+	  <duration>2006</duration>
+	  <start>234</start>
+	  <end>2240</end>
+	  <in>0</in>
+	  <out>2006</out>
+  <file id="file-2">
+	  <name>middle</name>
+	  <pathurl>C:\Users\JPOM\Documents\Class JPOM\Thesis\theSVN\FinalCutWriter\video\good file.MOV</pathurl>
+ <rate>
+                                        <timebase>60</timebase>
+                                        <ntsc>TRUE</ntsc>
+                                    </rate>
+	  <duration>4008</duration>
+  
+  <media>
+  <video>
+   <duration>18000</duration>
+
+  <samplecharacteristics>
+  <rate>
+	  <timebase>60</timebase>
+	  <ntsc>TRUE</ntsc>
+  </rate>
+	  <width>1280</width>
+	  <height>720</height>
+  </samplecharacteristics>
+  </video>
+  <audio>
+  <samplecharacteristics>
+	  <depth>16</depth>
+	  <samplerate>48000</samplerate>
+  </samplecharacteristics>
+   <channelcount>2</channelcount>
+  </audio>
+  </media>
+  </file>
+  <link>
+	  <linkclipref>clipitem-4</linkclipref>
+	  <mediatype>video</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-5</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-6</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>2</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  </clipitem>
+  <clipitem id="Funkynew">
+	  <name>MVFI_4425.MOV</name>
+	  <enabled>TRUE</enabled>
+	  <duration>2006</duration>
+	  <start>2241</start>
+	  <end>3240</end>
+	  <in>50</in>
+	  <out>52</out>
+  <file id="file-1"/>
+  
+  </clipitem>
+  </track>
+  
+  </video>
+  <audio>
+  <format>
+  <samplecharacteristics>
+	  <depth>16</depth>
+	  <samplerate>48000</samplerate>
+  </samplecharacteristics>
+  </format>
+  <outputs>
+  <group>
+	  <index>1</index>
+	  <numchannels>1</numchannels>
+	  <downmix>0</downmix>
+  <channel>
+	  <index>1</index>
+  </channel>
+  </group>
+  <group>
+	  <index>2</index>
+	  <numchannels>1</numchannels>
+	  <downmix>0</downmix>
+  <channel>
+	  <index>2</index>
+  </channel>
+  </group>
+  </outputs>
+  <track hardpan="TRUE">
+	  <enabled>TRUE</enabled>
+	  <locked>FALSE</locked>
+  <clipitem id="clipitem-5">
+	  <name>MVI_4425.MOV</name>
+	  <enabled>TRUE</enabled>
+	  <duration>2006</duration>
+	  <start>234</start>
+	  <end>2240</end>
+	  <in>0</in>
+	  <out>2006</out>
+  <file id="file-2"/>
+  <sourcetrack>
+	  <mediatype>audio</mediatype>
+	  <trackindex>1</trackindex>
+  </sourcetrack>
+  <link>
+	  <linkclipref>clipitem-4</linkclipref>
+	  <mediatype>video</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-5</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-6</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>2</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  </clipitem>
+	  <outputchannelindex>1</outputchannelindex>
+  </track>
+  <track hardpan="TRUE">
+	  <enabled>TRUE</enabled>
+	  <locked>FALSE</locked>
+  <clipitem id="clipitem-6">
+	  <name>MVI_4425.MOV</name>
+	  <enabled>TRUE</enabled>
+	  <duration>2006</duration>
+	  <start>234</start>
+	  <end>2240</end>
+	  <in>0</in>
+	  <out>2006</out>
+  <file id="file-2"/>
+  <sourcetrack>
+	  <mediatype>audio</mediatype>
+	  <trackindex>2</trackindex>
+  </sourcetrack>
+  <link>
+	  <linkclipref>clipitem-4</linkclipref>
+	  <mediatype>video</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-5</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-6</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>2</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  </clipitem>
+	  <outputchannelindex>2</outputchannelindex>
+  </track>
+  
+  </audio>
+  </media>
+  
+  </sequence>
+  
+  <clip id="masterclip-1">
+	  <uuid>d0158d16-5588-4e29-a5d0-f6a3c78de713</uuid>
+	  <masterclipid>masterclip-1</masterclipid>
+	  <ismasterclip>TRUE</ismasterclip>
+	  <duration>4008</duration><rate>
+	  <timebase>60</timebase>
+	  <ntsc>TRUE</ntsc>
+  </rate>
+	  <name>MVI_4425.MOV</name>
+  <media>
+  <video>
+  <track hardpan="TRUE">
+  <clipitem id="clipitem-1">
+	  <masterclipid>masterclip-1</masterclipid>
+	  <name>MVI_4425.MOV</name>
+  <file id="file-1">
+		  <name>FUNkMVI_4425.MOV</name>
+	  <pathurl>/video/1296573953844.mp4</pathurl>
+  <rate>
+	  <timebase>60</timebase>
+	  <ntsc>TRUE</ntsc>
+  </rate>
+	  <duration>4008</duration>
+  
+  <media>
+  <video>
+   <duration>18000</duration>
+  <samplecharacteristics>
+  <rate>
+	  <timebase>60</timebase>
+	  <ntsc>TRUE</ntsc>
+  </rate>
+	  <width>1280</width>
+	  <height>720</height>
+  </samplecharacteristics>
+  </video>
+  <audio>
+  <samplecharacteristics>
+	  <depth>16</depth>
+	  <samplerate>48000</samplerate>
+  </samplecharacteristics>
+   <channelcount>1</channelcount>
+  </audio>
+  </media>
+  </file>
+  <link>
+	  <linkclipref>clipitem-1</linkclipref>
+	  <mediatype>video</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-2</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-3</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>2</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  </clipitem>
+  </track>
+  </video>
+  <audio>
+  <track hardpan="TRUE">
+  <clipitem id="clipitem-2">
+	  <masterclipid>masterclip-1</masterclipid>
+	  <name>MVI_4425.MOV</name>
+  <file id="file-1"/>
+  <sourcetrack>
+	  <mediatype>audio</mediatype>
+	  <trackindex>1</trackindex>
+  </sourcetrack>
+  <link>
+	  <linkclipref>clipitem-1</linkclipref>
+	  <mediatype>video</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-2</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-3</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>2</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  </clipitem>
+  </track>
+  <track hardpan="TRUE">
+  <clipitem id="clipitem-3">
+	  <masterclipid>masterclip-1</masterclipid>
+	  <name>MVI_4425.MOV</name>
+  <file id="file-1"/>
+  <sourcetrack>
+	  <mediatype>audio</mediatype>
+	  <trackindex>2</trackindex>
+  </sourcetrack>
+  <link>
+	  <linkclipref>clipitem-1</linkclipref>
+	  <mediatype>video</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-2</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>1</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  <link>
+	  <linkclipref>clipitem-3</linkclipref>
+	  <mediatype>audio</mediatype>
+	  <trackindex>2</trackindex>
+	  <clipindex>1</clipindex>
+	  <groupindex>1</groupindex>
+  </link>
+  </clipitem>
+  </track>
+  </audio>
+  </media>
+  <logginginfo>
+	  <description></description>
+	  <scene></scene>
+	  <shottake></shottake>
+	  <lognote></lognote>
+  </logginginfo>
+  </clip>
+  
+  </children>
+  
+  </project>
+  </xmeml>

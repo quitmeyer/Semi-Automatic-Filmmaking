@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<test.Cam.CamcorderView android:id="@+id/camcorder_preview"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:enabled="false" android:focusable="true" android:clickable="true" />
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+			<Chronometer  android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@+id/Chronometer01" android:id="@+id/Chronometer01" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:paddingBottom="1dip"></Chronometer>
+	<TextView android:text="@+id/EditText01" android:id="@+id/EditText01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight ="true" android:layout_above="@id/Chronometer01"></TextView>
+	
+		<Button android:layout_width="wrap_content" android:text="Start Recording" android:layout_height="wrap_content" android:id="@+id/camRec" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"></Button>
+		</RelativeLayout>
+
+	
+
+
+</AbsoluteLayout>

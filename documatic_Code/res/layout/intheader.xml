@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal" android:paddingBottom="5dip" android:paddingTop="5dip"  >
+
+<TextView style="@android:style/TextAppearance.Medium"
+		android:text="Link to Interviewee" android:id="@+id/selectproj"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textSize="12dip"></TextView>
+	<Spinner android:id="@+id/intPeopleSpinner" android:layout_height="wrap_content"
+		android:prompt="@string/mSelect" android:layout_width="match_parent" ></Spinner>
+
+
+</LinearLayout>

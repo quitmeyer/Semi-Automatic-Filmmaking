@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal" android:background="@color/MainFootageBackground" >
+
+<TextView android:text="@string/exhibitMenuTit" android:id="@+id/TextView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical|center_horizontal" android:textSize="12dip"/>
+
+
+		<RelativeLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:orientation="horizontal" android:paddingBottom="10dip">
+
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:orientation="vertical">
+				<TextView android:text="Narration?" android:id="@+id/narrQTextView01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+				<CheckBox android:id="@+id/Narration" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_gravity="center_horizontal" />
+			</LinearLayout>
+						<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:orientation="vertical" android:layout_alignParentRight="true">
+				<TextView android:text="Person?" android:id="@+id/narrQTextView01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal" />
+			
+			
+		<Spinner android:id="@+id/mProjSpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:entries="@array/peopleNames" android:layout_gravity="center_horizontal"/>
+			</LinearLayout>
+		
+</RelativeLayout>
+<!--CurrentSection Menu-->
+	<RelativeLayout android:id="@+id/CurrentSecMenu"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@color/ListBackground">
+<TextView android:id="@+id/recordStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Current Section" android:layout_centerVertical="false" android:layout_alignBaseline="@+id/theSectionTextView"></TextView>
+<TextView android:id="@+id/theSectionTextView" style="@style/ActiveSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="breedingLOAD" android:layout_alignParentRight="true"></TextView>
+
+	
+</RelativeLayout>
+<View android:id="@+id/divider"
+    android:background="@drawable/listgradient"
+    android:layout_width="fill_parent" android:layout_height="2dp"/>
+
+	
+
+	<LinearLayout android:layout_height="0px" android:id="@+id/BottomMenu"
+		android:layout_gravity="bottom" android:layout_width="fill_parent"
+		android:layout_weight="5" android:orientation="horizontal" android:background="@color/ListBackground"  >
+		<ListView android:id="@+id/ExListView01"
+			android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#00000000" android:cacheColorHint="#00000000"  >
+		</ListView>
+	</LinearLayout>
+
+		<!--BottomMenu-->
+<View android:id="@+id/divider"
+    android:background="@drawable/black_white_gradient"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp" android:layout_marginBottom="2dip"/>
+		<LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout01" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:gravity="center_vertical">
+			
+						<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="0dp" android:layout_weight="1">
+			
+				<ImageButton android:id="@+id/addSecButton" android:scaleType="centerCrop" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/plusbutton" android:layout_gravity="center|center_vertical"></ImageButton>
+	
+	<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:gravity="left" android:text="New\nSection" android:layout_gravity="center_vertical" style="@android:style/TextAppearance.Theme" android:textSize="14dip"></TextView>
+			</LinearLayout>
+							<Button android:text="STOP" android:id="@+id/backButton01" android:layout_height="fill_parent" android:layout_width="0dp"  android:layout_alignParentRight="true" android:layout_weight="2"></Button>
+			
+		</LinearLayout>
+</LinearLayout>

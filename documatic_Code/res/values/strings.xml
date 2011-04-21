@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">A Collaborative Documentary Generation Application by Andrew Quitmeyer
+	</string>
+	<string name="app_name">Documatic 1.0</string>
+	<string name="mSelect">Select Project</string>
+	<string-array name="mProjects">
+		<item>"-New Project-"</item>
+		<item>Load</item>
+		<item>Loade</item>
+		<item>Loadme</item>
+	</string-array>
+	<string name="mEdit">Edit Project</string>
+	<string name="mAddF">Annotate Footage</string>
+	<string name="sync">Sync Projects:</string>
+	<string name="mTutMode">Tutorial Mode</string>
+		<string name="mTutModeON">Tutorial Mode ACTIVATED</string>
+	
+	<string name="mHelp">Help</string>
+	<string name="bBecome">Become Recorder</string>
+	<string name="name">Name</string>
+	<string name="title">Title</string>
+	<string name="comment">Comment</string>
+	<string-array name="projectSections">
+		<item>Dog Colors</item>
+		<item>Dog Sizes</item>
+		<item>Sect Loadme</item>
+		<item>Sect dddLoadme</item>
+		<item>Sect Loadme</item>
+		<item>ddSect Loadme</item>
+
+		<item>Sedddct Loadme</item>
+
+	</string-array>
+	<string-array name="peopleNames">
+		<item>Humbert Humbert</item>
+		<item>Vivian Darkbloom</item>
+
+	</string-array>
+	<string-array name="peopleTitles">
+		<item>Valedictorian</item>
+		<item>Digital Naturalist</item>
+		<item>Long Dog Enthusiast</item>
+
+
+	</string-array>
+	<color name="miorange">#FF8000</color>
+	<string name="goback">back</string>
+<string name="narrBadTake">Redo Take</string>
+<string name="addSection">+ Section</string>
+<string name="exhibitMenuTit"><u>(Optional) Link Exhibit Video With</u></string>
+<string name="editAddNew">+Add New Section</string>
+<string name="rec">Start Recording</string>
+<color name="ActiveBar">#FFB871</color>
+<color name="MainBackground">#2F88C1</color>
+<color name="ListBackground">#000000</color>
+<color name="MainFootageBackground">#C1802F</color>
+
+</resources>
